@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="DependencyInjection\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Structure.Application\Structure.Application.csproj" />
+      <ProjectReference Include="..\Structure.Persistence\Structure.Persistence.csproj" />
+    </ItemGroup>
+
 </Project>

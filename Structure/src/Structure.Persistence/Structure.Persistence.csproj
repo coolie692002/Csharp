@@ -4,6 +4,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Structure.Persistance</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,8 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Structure.Application\Structure.Application.csproj" />
-      <ProjectReference Include="..\Structure.Infrastructure\Structure.Infrastructure.csproj" />
+      <ProjectReference Include="..\Structure.Domain\Structure.Domain.csproj" />
     </ItemGroup>
 
 </Project>

@@ -100,7 +100,7 @@ Solution/
 │   │       ├── PipeFilters
 │   │       └── PipeObservers
 │   ├── ==================================================================
-│   ├── Persistance | Infrastructure.EF --> 'Working with database'/
+│   ├── Persistence | Infrastructure.EF --> 'Working with database'/
 │   │   ├── (ref: Domain)
 │   │   └── Fodlers/
 │   │       ├── Configurations

@@ -10,4 +10,15 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="DependencyInjection\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Structure.Application\Structure.Application.csproj" />
+      <ProjectReference Include="..\Structure.Infrastructure\Structure.Infrastructure.csproj" />
+      <ProjectReference Include="..\Structure.Persistence\Structure.Persistence.csproj" />
+      <ProjectReference Include="..\Structure.Presentation\Structure.Presentation.csproj" />
+    </ItemGroup>
+
 </Project>
