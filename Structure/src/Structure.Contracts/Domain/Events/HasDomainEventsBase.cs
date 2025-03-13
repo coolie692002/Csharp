@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace Structure.Contracts.Domain;
+namespace Structure.Contracts.Domain.Events;
 
 public abstract class HasDomainEventsBase
 {

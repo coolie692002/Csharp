@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-namespace Structure.Contracts.Domain;
+namespace Structure.Contracts.Domain.Events;
 
-public class DomainEventRecord(object eventData, long eventOrder) : INotification
+public abstract class DomainEventRecord(object eventData, long eventOrder) : INotification
 {
     public object EventData { get; } = eventData;
 

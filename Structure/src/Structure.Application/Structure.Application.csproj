@@ -7,7 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="DependencyInjection\" />
+      <Folder Include="Abstractions\" />
+      <Folder Include="Behaviors\" />
+      <Folder Include="DependencyInjection\Extensions\" />
+      <Folder Include="DependencyInjection\Options\" />
+      <Folder Include="DomainEventHandlers\" />
+      <Folder Include="Features\V1\File\Command\" />
+      <Folder Include="Features\V1\File\Queries\" />
+      <Folder Include="Features\V2\" />
+      <Folder Include="IntegrationEvents\" />
+      <Folder Include="Models\" />
+      <Folder Include="Validations\" />
     </ItemGroup>
 
     <ItemGroup>

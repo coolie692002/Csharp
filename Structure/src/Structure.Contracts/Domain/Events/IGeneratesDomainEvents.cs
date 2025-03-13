@@ -1,4 +1,4 @@
-﻿namespace Structure.Contracts.Domain;
+﻿namespace Structure.Contracts.Domain.Events;
 
 public interface IGeneratesDomainEvents
 {

@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
+using Structure.Contracts.Domain.Events;
 using Structure.Contracts.Domain.Interfaces;
 
 namespace Structure.Contracts.Domain;

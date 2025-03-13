@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Events\" />
+    <Folder Include="DomainEvents\" />
     <Folder Include="SeedWork\" />
   </ItemGroup>
 

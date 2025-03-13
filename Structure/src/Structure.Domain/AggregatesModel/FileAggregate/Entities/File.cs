@@ -23,6 +23,8 @@ public class File : FullAuditedAggregateRoot<Guid>
     public string? Hash { get; protected set; }
 
     public string? BlobName { get; protected set; }
+    
+    public virtual Guid? OwnerUserId { get; protected set; }
 
     public string? Flag { get; protected set; }
 
@@ -95,6 +97,11 @@ public class File : FullAuditedAggregateRoot<Guid>
     public void SetFlag(string? flag)
     {
         Flag = flag;
+    }
+    
+    public void TriggerAuditingChanges()
+    {
+        LastModificationTime = DateTime.MinValue;
     }
 
 }
